@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;    
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    background-color: rgb(218, 211, 211);    
+}
+button{
+    padding: 8px 20px;
+    border: none;
+    color: #fff;
+    background-color: rgb(63, 119, 241);
+    cursor: pointer;
+    border-radius: 4px;    
+}
+button:hover{
+    background-color: steelblue;
+}
+
+input{
+    padding: 8px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.login-container{
+    text-align: center;    
+    background-color: honeydew;
+    padding: 20px;
+}
